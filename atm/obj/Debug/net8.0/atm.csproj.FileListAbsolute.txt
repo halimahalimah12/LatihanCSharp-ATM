@@ -12,3 +12,4 @@ D:\Bootcamp\Latihan C#\exercise2\atm\atm\obj\Debug\net8.0\refint\atm.dll
 D:\Bootcamp\Latihan C#\exercise2\atm\atm\obj\Debug\net8.0\atm.pdb
 D:\Bootcamp\Latihan C#\exercise2\atm\atm\obj\Debug\net8.0\atm.genruntimeconfig.cache
 D:\Bootcamp\Latihan C#\exercise2\atm\atm\obj\Debug\net8.0\ref\atm.dll
+D:\Bootcamp\Latihan C#\exercise2\atm\atm\obj\Debug\net8.0\atm.sourcelink.json
