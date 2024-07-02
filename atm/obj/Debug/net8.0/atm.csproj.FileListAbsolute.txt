@@ -1,0 +1,14 @@
+D:\Bootcamp\Latihan C#\exercise2\atm\atm\bin\Debug\net8.0\atm.exe
+D:\Bootcamp\Latihan C#\exercise2\atm\atm\bin\Debug\net8.0\atm.deps.json
+D:\Bootcamp\Latihan C#\exercise2\atm\atm\bin\Debug\net8.0\atm.runtimeconfig.json
+D:\Bootcamp\Latihan C#\exercise2\atm\atm\bin\Debug\net8.0\atm.dll
+D:\Bootcamp\Latihan C#\exercise2\atm\atm\bin\Debug\net8.0\atm.pdb
+D:\Bootcamp\Latihan C#\exercise2\atm\atm\obj\Debug\net8.0\atm.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp\Latihan C#\exercise2\atm\atm\obj\Debug\net8.0\atm.AssemblyInfoInputs.cache
+D:\Bootcamp\Latihan C#\exercise2\atm\atm\obj\Debug\net8.0\atm.AssemblyInfo.cs
+D:\Bootcamp\Latihan C#\exercise2\atm\atm\obj\Debug\net8.0\atm.csproj.CoreCompileInputs.cache
+D:\Bootcamp\Latihan C#\exercise2\atm\atm\obj\Debug\net8.0\atm.dll
+D:\Bootcamp\Latihan C#\exercise2\atm\atm\obj\Debug\net8.0\refint\atm.dll
+D:\Bootcamp\Latihan C#\exercise2\atm\atm\obj\Debug\net8.0\atm.pdb
+D:\Bootcamp\Latihan C#\exercise2\atm\atm\obj\Debug\net8.0\atm.genruntimeconfig.cache
+D:\Bootcamp\Latihan C#\exercise2\atm\atm\obj\Debug\net8.0\ref\atm.dll
