@@ -197,30 +197,32 @@ public class Program
     }
     public static void SetorUang(int norek)
     {
-        Console.WriteLine("Masukkan jumlah uang yang akan disetor:");
-        string jumlahInput = Console.ReadLine();
-        double jumlah = double.Parse(jumlahInput);
-
-        for (int i = 0; i < nasabahList.Count; i++)
+        try
         {
-            if (norek == nasabahList[i].norek)
+            Console.WriteLine("Masukkan jumlah uang yang akan disetor:");
+            string jumlahInput = Console.ReadLine();
+            double jumlah = double.Parse(jumlahInput);
+        
+            for (int i = 0; i < nasabahList.Count; i++)
             {
-                if (jumlah <= nasabahList[i].saldo)
+                if (norek == nasabahList[i].norek)
                 {
+
                     nasabahList[i] = (nasabahList[i].norek, nasabahList[i].saldo + jumlah, nasabahList[i].pin);
                     historyList.Add((nasabahList[i].norek, DateTime.Now, jumlah, 0, "Sukses", "Setor Uang"));
                     Console.WriteLine("Sukses ");
-                }
-                else
-                {
-                    historyList.Add((nasabahList[i].norek, DateTime.Now, jumlah, 0, "Gagal", "Setor Uang"));
-                    Console.WriteLine("Maaf Gagal Setor Uang");
-                }
-                ShowMenu(norek);
-                
-            }
-        }
 
+                    ShowMenu(norek);
+
+                }
+            }
+
+        }
+        catch (Exception ex) {
+            Console.WriteLine("Input harus bilangan bulat.");
+            ShowMenu(norek);
+        }
+       
     }
 
     public static void Transfer(int norek)
